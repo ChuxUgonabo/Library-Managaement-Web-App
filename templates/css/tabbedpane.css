@@ -1,0 +1,95 @@
+/* Tabs*/
+html body {
+    margin: 0;
+    padding: 0;
+    background: #17a2b8;
+    height: 100vh;
+  }
+section {
+    padding: 60px 0;
+}
+.form-check #gridCheck{
+    margin-right:20px;
+}
+.table-borderless {
+    color:white;
+    font-size:20px;
+}
+.table-borderless a, .table-borderless a:hover, .table-borderless a:active
+{
+    text-decoration: none;
+    color:black;
+    padding:10px;
+    background-color:#eee;
+    border-radius:15px;
+}
+#lineafterform
+{
+   border: 1px solid white;
+}
+.check label
+{
+   margin-right: 15px;
+}
+input[type="radio"] {
+    margin-right: 5px;
+  }
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#tabs{
+	background: #17a2b8;
+    color: #eee;
+}
+#tabs h6.section-title{
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: black;
+    font-size: 20px;
+}
+
+.btn-search
+{
+    background-color:#eee;
+    color:black;
+    border-radius: 5px;
+}
+
+.btn-search:hover
+{
+    opacity:0.5;
+}
+
+#thanyou
+{
+    color:white;
+}
+
+.container #validation{
+    position: absolute;
+    left: 36%;
+    padding: 10px;
+    top: 5%;
+    border: 2px solid grey;
+    width: 400px;
+    text-align: center;
+    color: black;
+    background-color: #eee;
+    opacity:0.8;
+  }
